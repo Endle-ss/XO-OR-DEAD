@@ -1,0 +1,22 @@
+﻿<Window x:Class="XO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="514">
+    <Grid>
+        <Button x:Name="Butt1" Content="" HorizontalAlignment="Left" Margin="142,140,0,0" VerticalAlignment="Top" Height="70" Width="70" FontSize="22" Click="ButtonClick"/>
+        <Button x:Name="Butt2" Content="" HorizontalAlignment="Left" Margin="218,140,0,0" VerticalAlignment="Top" Height="70" Width="70" FontSize="22" Click="ButtonClick"/>
+        <Button x:Name="Butt3" Content="" HorizontalAlignment="Left" Margin="295,140,0,0" VerticalAlignment="Top" Height="70" Width="70" FontSize="22" Click="ButtonClick"/>
+        <Button x:Name="Butt4" Content="" HorizontalAlignment="Left" Margin="142,217,0,0" VerticalAlignment="Top" Height="70" Width="70" FontSize="22" Click="ButtonClick"/>
+        <Button x:Name="Butt5" Content="" HorizontalAlignment="Left" Margin="218,217,0,0" VerticalAlignment="Top" Height="70" Width="70" FontSize="22" Click="ButtonClick"/>
+        <Button x:Name="Butt6" Content="" HorizontalAlignment="Left" Margin="295,217,0,0" VerticalAlignment="Top" Height="70" Width="70" FontSize="22" Click="ButtonClick"/>
+        <Button x:Name="Butt7" Content="" HorizontalAlignment="Left" Margin="142,292,0,0" VerticalAlignment="Top" Height="70" Width="70" FontSize="22" Click="ButtonClick"/>
+        <Button x:Name="Butt8" Content="" HorizontalAlignment="Left" Margin="218,292,0,0" VerticalAlignment="Top" Height="70" Width="70" FontSize="22" Click="ButtonClick"/>
+        <Button x:Name="Butt9" Content="" HorizontalAlignment="Left" Margin="295,292,0,0" VerticalAlignment="Top" Height="70" Width="70" FontSize="22" Click="ButtonClick"/>
+        <TextBox x:Name="Text" HorizontalAlignment="Center" Height="33" Margin="0,10,0,0" TextWrapping="Wrap" Text="КРЕСТИКИ НОЛИКИ НАСМЕРТЬ!" VerticalAlignment="Top" Width="344" Background="#FF0A0000" BorderBrush="#FFE8EAEF" Foreground="White" FontSize="22"/>
+        <Button x:Name="NewGameButton" Content="Новая игра" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10" Height="30" Width="100" FontSize="16" Click="NewGameButton_Click"/>
+    </Grid>
+</Window>
